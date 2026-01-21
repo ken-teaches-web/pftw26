@@ -11,8 +11,9 @@
   - ESLint / ESLint Extension
   - Live Server
 - GitHub
-  - initialize rep
+
   - .gitignore
+  - github desktop app
 - JavaScript in the browser
   - embedded
   - external
