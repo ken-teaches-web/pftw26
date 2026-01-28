@@ -106,10 +106,13 @@ const myCars = [
         model: "Tucson"
     }
 ];
-const whichCar = window.prompt("I have " + myCars.length + " cars, which car should I share with you?");
+// const whichCar = window.prompt("I have " + myCars.length + " cars, which car should I share with you?");
 
-const selectedIndex = Number(whichCar) - 1;
-window.alert("You chose my " + myCars[selectedIndex].model + " which is a " + myCars[selectedIndex].make)
+// const selectedIndex = Number(whichCar) - 1;
+// window.alert("You chose my " + myCars[selectedIndex].model + " which is a " + myCars[selectedIndex].make)
+
+const myRandom = Math.floor(Math.random() * myCars.length);
+console.log("random number", myCars[myRandom]);
 
 
 // how to use with p5
