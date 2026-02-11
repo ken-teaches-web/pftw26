@@ -27,6 +27,7 @@ console.log(dogNames[1])
 const ages = [21, 55, 87];
 console.log(ages[0])
 const mixedArray = ["bob", 3, "postman", false];
+console.log("length", mixedArray.length)
 
 // push adds to the end
 mixedArray.push("Jane"); // know for quiz

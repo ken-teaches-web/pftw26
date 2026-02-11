@@ -1,0 +1,18 @@
+.todo:before {
+    content: ' \2610';
+
+}
+.done:before {
+content: ' \2612';
+}
+li:before {
+    position: absolute;
+    left: -16px;
+    top: -3px;
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    
+}
